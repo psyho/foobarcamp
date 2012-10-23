@@ -240,22 +240,14 @@ section#downloads a em {
   display: block;
 }
 
-section#downloads a.zip {
+section#downloads span.zip {
   float: left;
   background-position: 0 0;
 }
 
-section#downloads a.tgz {
+section#downloads span.tgz {
   float: right;
   background-position: -275px 0;
-}
-
-section#downloads a.zip:hover {
-  background-position: 0 -197px;
-}
-
-section#downloads a.tgz:hover {
-  background-position: -275px -197px;
 }
 
 span.banner-fix {
@@ -389,6 +381,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   margin: .7em 0;
+  font-size: 1.2em;
 }
 
 strong {
@@ -408,6 +401,7 @@ ol {
 ul {
   margin: .7em 0;
   padding-left: 1.35em;
+  font-size: 1.2em;
 }
 
 ul li {
@@ -566,4 +560,13 @@ dd p:first-child {
   margin: .8em 0;
   font-size: .85em;
   font-style: italic;
+}
+
+.important {
+  text-align: center;
+  font-size: 2em;
+}
+
+.not-so-important {
+  text-align: center;
 }
