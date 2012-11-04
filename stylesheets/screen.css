@@ -37,6 +37,11 @@ a {
   color: rgb(42, 161, 152);
 }
 
+a.logo {
+  text-decoration: none;
+  color: rgb(101, 123, 131);
+}
+
 address {
   font-style: normal;
 }
