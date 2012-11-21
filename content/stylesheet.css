@@ -1,101 +1,62 @@
-* {
-  margin: 0;
-  padding: 0;
-
-  font-family: Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+body {
+  margin: 50px;
+  background: rgb(253, 246, 227);
+  color: rgb(101, 123, 131);
+  font-family: 'Monaco', 'Lucida Console', 'Courier New', monospace;
 }
 
-body {
-  background: #fff;
+h1 .big {
+  font-size: 1.7em;
+}
+
+#container {
+  width: 800px;
+}
+
+.orange {
+  color: rgb(203, 75, 22);
+}
+
+.yellow {
+  color: rgb(181, 137, 0);
+}
+
+.blue {
+  color: rgb(38, 139, 210);
+}
+
+.comment {
+  color: rgb(88, 110, 117);
+}
+
+h2 {
+  color: rgb(211, 54, 130);
 }
 
 a {
+  color: rgb(42, 161, 152);
+}
+
+a.logo {
   text-decoration: none;
+  color: rgb(101, 123, 131);
 }
 
-a:link,
-a:visited {
-  color: #f30;
+address {
+  font-style: normal;
 }
 
-a:hover {
-  color: #f90;
+.left-column {
+  float: left;
+  margin-right: 30px;
 }
 
-#main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+.clear {
+  clear: both;
 }
 
-#main h1 {
-  font-size: 40px;
-  font-weight: normal;
-
-  line-height: 40px;
-
-  letter-spacing: -1px;
-}
-
-#main p {
-  margin: 20px 0;
-  
-  font-size: 15px;
-  
-  line-height: 20px;
-}
-
-#main ul, #main ol {
-  margin: 20px;
-}
-
-#main li {
-  font-size: 15px;
-  
-  line-height: 20px;
-}
-
-#main ul li {
-  list-style-type: square;
-}
-
-#sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
-  text-align: right;
-}
-
-#sidebar h2 {
-  text-transform: uppercase;
-
-  font-size: 13px;
-
-  color: #333;
-
-  letter-spacing: 1px;
-
-  line-height: 20px;
-}
-
-#sidebar ul {
-  list-style-type: none;
-
-  margin: 20px 0;
-}
-
-#sidebar li {
-  font-size: 14px;
-
-  line-height: 20px;
+.register-link {
+  float: left;
+  font-size: 2em;
+  margin-right: 30px;
 }
