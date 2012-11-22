@@ -60,3 +60,12 @@ address {
   font-size: 2em;
   margin-right: 30px;
 }
+
+.sponsor-logos img {
+  border: 3px solid #c9c9c9;
+  margin: 2px;
+}
+
+.sponsor-logos img:hover {
+  border-color: rgb(42, 161, 152);
+}
