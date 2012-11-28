@@ -9,6 +9,10 @@ h1 .big {
   font-size: 1.7em;
 }
 
+ul li {
+  margin: 10px 0px;
+}
+
 #container {
   width: 800px;
 }
